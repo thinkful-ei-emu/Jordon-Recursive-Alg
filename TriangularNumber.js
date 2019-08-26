@@ -5,4 +5,4 @@ const TriangularNumber = (n) => {
     return n + TriangularNumber(n - 1);
 }
 
-console.log(TriangularNumber());
+console.log(TriangularNumber(3));
